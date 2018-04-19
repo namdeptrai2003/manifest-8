@@ -1,9 +1,9 @@
 Bootleggers ROM | Broken 8.1 Sources
 ========
 
-To initialize your local repository, use this command:
+This tracks the hal1 phixes as well , so be sure to:
 
-	repo init -u https://github.com/BootleggersROM/manifest.git -b oreo.1
+	repo init -u https://github.com/BootleggersROM/manifest.git -b oreo.1-hal1
 
 Then, be sure to add your device manifest in your local_manifests folder and finally, do:
 
