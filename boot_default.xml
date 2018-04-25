@@ -27,7 +27,7 @@
 
   <!-- GZOSP -->
   <project path="manifest" name="manifest" remote="gzosp" />
-  <project path="build/make" name="build" remote="bootleg" >
+  <project path="build/make" name="build" remote="bootleg" revision="oreo.1-gsi" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -45,7 +45,7 @@
   <project path="bionic" name="bionic" groups="pdk" remote="gzosp" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="bootleg" />
-  <project path="device/gzosp/sepolicy" name="device_gzosp_sepolicy" remote="gzosp" />
+  <project path="device/gzosp/sepolicy" name="device_gzosp_sepolicy" remote="bootleg" revision="oreo.1-gsi" />
   <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="gzosp" />
   <project path="external/DUtils" name="external_DUtils" remote="bootleg" />
   <project path="external/ebtables" name="external_ebtables" groups="pdk" remote="gzosp" />
@@ -65,8 +65,8 @@
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="gzosp" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="gzosp" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="gzosp" />
-  <project path="frameworks/base" name="frameworks_base" remote="bootleg" revision="oreo.1" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="gzosp" />
+  <project path="frameworks/base" name="frameworks_base" remote="bootleg" revision="oreo.1-gsi" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="bootleg" revision="oreo.1-gsi" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="gzosp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="gzosp" />
   <project path="hardware/gzosp/interfaces" name="hardware_gzosp_interfaces" remote="gzosp" >
@@ -108,8 +108,8 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="bootleg" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="bootleg" />
   <project path="packages/wallpapers/MusicVisualization" name="packages_wallpapers_MusicVisualization" groups="pdk-cw-fs,pdk-fs" remote="bootleg" revision="oreo" />
-  <project path="system/bt" name="system_bt" groups="pdk" remote="gzosp" />
-  <project path="system/core" name="system_core" groups="pdk" remote="bootleg" />
+  <project path="system/bt" name="system_bt" groups="pdk" remote="bootleg" revision="oreo.1-gsi" />
+  <project path="system/core" name="system_core" groups="pdk" remote="bootleg" revision="oreo.1-gsi" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="gzosp" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk" remote="gzosp" />
   <project path="system/hwservicemanager" name="system_hwservicemanager" groups="pdk" remote="gzosp" />
@@ -119,7 +119,7 @@
   <project path="system/nfc" name="system_nfc" groups="pdk" remote="gzosp" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="bootleg" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="gzosp" />
-  <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="bootleg" revision="oreo.1-gsi" />
   <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleg" />
   <project path="vendor/bootleggers/extras" name="ExtraStuff" groups="pdk,tradefed" remote="bootleg" revision="master" />
   <project path="vendor/bootleggers/ota" name="BootleggersROM-Devices/OTA" groups="pdk,tradefed" remote="github" revision="master" >
