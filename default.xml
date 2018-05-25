@@ -529,5 +529,9 @@
 
   <!-- GZOSP CAF manifest -->
   <include name="caf_default.xml" />
+  
+    <!-- GP manifest -->
+  <include name="gp.xml" />
+
 
 </manifest>
