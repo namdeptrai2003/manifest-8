@@ -6,15 +6,14 @@
            review="review.msm8916.com"
            revision="lineage-15.1" />
    
-  <remote  name="github"
-           fetch="https://github.com/" />
+  
   
    <!-- TWRP -->
   <project path="bootable/recovery-twrp" name="Galaxy-MSM8916/android_bootable_recovery" remote="github" revision="android-8.1"/>
   <project path="hardware/qcom/audio-caf/msm8916" name="Galaxy-MSM8916/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8916" />
 
   <!-- Grand Prime Fortuna Device Trees -->
- <project path="device/samsung/fortunave3g" name="Gumball1506/android_device_samsung_fortunave3g-1" remote="github" revision="mokee-o" />
+ <project path="device/samsung/fortunave3g" name="Gumball1506/android_device_samsung_fortunave3g" remote="github" revision="lineage-15.1" />
  <project path="device/samsung/gprimelte-common" name="Gumball1506/android_device_samsung_gprimelte-common" remote="github" revision="lineage-15.1" />
  <!-- Samsung MSM8916 Common Repos -->
  <project path="device/samsung/msm8916-common" name="Gumball1506/android_device_samsung_msm8916-common" remote="github" revision="lineage-15.1" />
