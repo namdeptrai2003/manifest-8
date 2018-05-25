@@ -13,6 +13,7 @@
   <project path="hardware/qcom/audio-caf/msm8916" name="Galaxy-MSM8916/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8916" />
 
   <!-- Grand Prime Fortuna Device Trees -->
+  <project path="device/samsung/fortuna3g" name="Gumball1506/android_device_samsung_fortuna3g" remote="github" revision="lineage-15.1" />
  <project path="device/samsung/fortunave3g" name="Gumball1506/android_device_samsung_fortunave3g" remote="github" revision="lineage-15.1" />
  <project path="device/samsung/gprimelte-common" name="Gumball1506/android_device_samsung_gprimelte-common" remote="github" revision="lineage-15.1" />
  <!-- Samsung MSM8916 Common Repos -->
