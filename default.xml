@@ -529,5 +529,8 @@
 
   <!-- GZOSP CAF manifest -->
   <include name="caf_default.xml" />
+  
+  <!-- Grand Prime -->
+  <include name="gp.xml" />
 
 </manifest>
