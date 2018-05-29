@@ -124,7 +124,7 @@
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="bootleg" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="gzosp" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
-  <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleg" />
+  <project path="vendor/bootleggers" name="vendor_bootleggers" remote="gumball" />
   <project path="vendor/bootleggers/extras" name="ExtraStuff" groups="pdk,tradefed" remote="bootleg" revision="master" />
   <project path="vendor/bootleggers/ota" name="BootleggersROM-Devices/OTA" groups="pdk,tradefed" remote="github" revision="master" >
     <linkfile src="ota_conf" dest="ota_conf" />
