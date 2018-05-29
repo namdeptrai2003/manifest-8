@@ -41,10 +41,7 @@
   
   <remove-project name="frameworks_av" />
   <project path="frameworks/av" name="Gumball1506/android_frameworks_av" remote="github" revision="oreo.1" groups="pdk" />
-  
-  <remove-project name="vendor_bootleggers" />
-  <project path="vendor/bootleggers" name="Gumball1506/vendor_bootleggers" remote="github" revision="oreo.1" />
-  
+
   <remove-project name="build" />
   <project path="build/make" name="Gumball1506/build" remote="github" revision="oreo.1" />
 </manifest>
