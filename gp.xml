@@ -35,14 +35,4 @@
 
   <!-- Vendor Trees For All Device Trees -->
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
-  
-  <!-- Bootlegger bring up -->
-  <remove-project name="frameworks_base" />
-  <project path="frameworks/base" name="Gumball1506/frameworks_base" remote="github" revision="oreo.1" groups="pdk" />
-  
-  <remove-project name="frameworks_av" />
-  <project path="frameworks/av" name="Gumball1506/android_frameworks_av" remote="github" revision="oreo.1" groups="pdk" />
-  
-  <remove-project name="vendor_bootleggers" />
-  <project path="vendor/validus" name="Gumball1506/vendor_bootleggers" remote="github" revision="oreo.1" />
 </manifest>
