@@ -25,12 +25,9 @@
            sync-c="true"
            sync-j="8" />
   
-  <remote  name="gumball"
-           fetch="https://github.com/Gumball1506"
-           revision="oreo.1" />
   <!-- GZOSP -->
   <project path="manifest" name="manifest" remote="gzosp" />
-  <project path="build/make" name="build" remote="gumball" >
+  <project path="build/make" name="build" remote="bootleg" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
