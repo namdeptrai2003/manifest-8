@@ -7,7 +7,7 @@
            revision="lineage-15.1" />
 
   <project path="hardware/qcom/audio-caf/msm8916" name="Galaxy-MSM8916/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8916" />
-  <project path="build/make" name="Gumball1506/build" remote="github" revision="oreo.1" />
+
   
   <!-- TWRP -->
   <project path="bootable/recovery-twrp" name="Galaxy-MSM8916/android_bootable_recovery" remote="github" revision="android-8.1"/>
