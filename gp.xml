@@ -44,5 +44,5 @@
   <project path="frameworks/base" name="Gumball1506/frameworks_base" remote="github" revision="8.1" groups="pdk" />
   
   <remove-project name="frameworks_av" />
-  <project path="frameworks/av" name="jenslody/android_frameworks_av" remote="github" revision="lineage-15.1" groups="pdk" />
+  <project path="frameworks/av" name="Gumball1506/android_frameworks_av" remote="github" revision="lineage-15.1" groups="pdk" />
 </manifest>
