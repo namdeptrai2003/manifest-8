@@ -24,6 +24,7 @@
            sync-f="true"
            sync-c="true"
            sync-j="8" />
+  
   <remote  name="gumball"
            fetch="https://github.com/Gumball1506"
            revision="oreo.1" />
