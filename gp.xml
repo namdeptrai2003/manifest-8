@@ -35,4 +35,14 @@
 
   <!-- Vendor Trees For All Device Trees -->
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
+  
+  <!-- Bootleggers Bring up -->
+  <remove-project name="vendor_bootleggers" />
+  <project path="vendor/validus" name="Gumball1506/vendor_bootleggers" remote="github" revision="8.1" />
+
+  <remove-project name="frameworks_base" />
+  <project path="frameworks/base" name="Gumball1506/frameworks_base" remote="github" revision="8.1" groups="pdk" />
+  
+  <remove-project name="frameworks_av" />
+  <project path="frameworks/av" name="jenslody/android_frameworks_av" remote="github" revision="lineage-15.1" groups="pdk" />
 </manifest>
