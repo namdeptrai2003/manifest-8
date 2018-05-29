@@ -44,5 +44,5 @@
   <project path="frameworks/av" name="Gumball1506/android_frameworks_av" remote="github" revision="oreo.1" groups="pdk" />
   
   <remove-project name="vendor_bootleggers" />
-  <project path="vendor/validus" name="jenslody/vendor_bootleggers" remote="github" revision="8.1" />
+  <project path="vendor/validus" name="Gumball1506/vendor_bootleggers" remote="github" revision="8.1" />
 </manifest>
