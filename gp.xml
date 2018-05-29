@@ -6,25 +6,14 @@
            review="review.msm8916.com"
            revision="lineage-15.1" />
 
-
-  <!-- TWRP -->
-  <project path="bootable/recovery-twrp" name="Galaxy-MSM8916/android_bootable_recovery" remote="github" revision="android-8.1"/>
-
   <remove-project name="hardware_qcom_audio"/>
   <project path="hardware/qcom/audio-caf/msm8916" name="Galaxy-MSM8916/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8916" />
   
-  <remove-project name="frameworks_base" />
-  <project path="frameworks/base" name="Gumball1506/frameworks_base" remote="github" revision="8.1" groups="pdk" />
-  
-  <remove-project name="frameworks_av" />
-  <project path="frameworks/av" name="Gumball1506/android_frameworks_av" remote="github" revision="oreo.1" groups="pdk" />
-  
-  <remove-project name="vendor_bootleggers" />
-  <project path="vendor/bootleggers" name="Gumball1506/vendor_bootleggers" remote="github" revision="oreo.1" />
-  
-  <remove-project name="build" />
-  <project path="build/make" name="Gumball1506/build" remote="github" revision="oreo.1" />
 
+  
+  <!-- TWRP -->
+  <project path="bootable/recovery-twrp" name="Galaxy-MSM8916/android_bootable_recovery" remote="github" revision="android-8.1"/>
+  
   <!-- Grand Prime Fortuna Device Trees -->
   <project path="device/samsung/fortunave3g" name="Gumball1506/android_device_samsung_fortunave3g" remote="github" revision="bootleg" />
   <project path="device/samsung/fortuna3g" name="Gumball1506/android_device_samsung_fortuna3g" remote="github" revision="bootleg" />
@@ -48,4 +37,17 @@
 
   <!-- Vendor Trees For All Device Trees -->
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
+  
+  <!-- Vendor Trees For All Device Trees -->
+  <remove-project name="frameworks_base" />
+  <project path="frameworks/base" name="Gumball1506/frameworks_base" remote="github" revision="8.1" groups="pdk" />
+  
+  <remove-project name="frameworks_av" />
+  <project path="frameworks/av" name="Gumball1506/android_frameworks_av" remote="github" revision="oreo.1" groups="pdk" />
+  
+  <remove-project name="vendor_bootleggers" />
+  <project path="vendor/bootleggers" name="Gumball1506/vendor_bootleggers" remote="github" revision="oreo.1" />
+  
+  <remove-project name="build" />
+  <project path="build/make" name="Gumball1506/build" remote="github" revision="oreo.1" />
 </manifest>
