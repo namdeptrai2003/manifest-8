@@ -38,7 +38,7 @@
   <!-- Vendor Trees For All Device Trees -->
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
   
-  <!-- Vendor Trees For All Device Trees -->
+  <!-- Bootlegger bring up -->
   <remove-project name="frameworks_base" />
   <project path="frameworks/base" name="Gumball1506/frameworks_base" remote="github" revision="8.1" groups="pdk" />
   
