@@ -38,7 +38,7 @@
   
   <!-- Bootleggers Bring up -->
   <remove-project name="vendor_bootleggers" />
-  <project path="vendor/validus" name="Gumball1506/vendor_bootleggers" remote="github" revision="oreo.1" />
+  <project path="vendor/bootleggers" name="Gumball1506/vendor_bootleggers" remote="github" revision="oreo.1" />
 
   <remove-project name="frameworks_base" />
   <project path="frameworks/base" name="Gumball1506/frameworks_base" remote="github" revision="oreo.1" groups="pdk" />
